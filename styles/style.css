@@ -1,3 +1,8 @@
+
+
+
+
+
 * { margin:0; 
     padding:0; 
     box-sizing:border-box; 
@@ -92,7 +97,8 @@ body {
     min-width:280px; 
 }
 .preview-image img {
-  width:100%; border-radius:10px;
+  width:50%; 
+  border-radius:40px;
 }
 
 /* CTA Section */
@@ -145,4 +151,22 @@ body {
 }
 .contact-section button { 
     margin-top:12px; 
+}
+/* Footer */
+.footer {
+  padding:40px 20px; 
+  background:#eaeaea; 
+  text-align:center;
+  color: #8987A1;
+}
+.raleway-logo {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
+.footer-links a {
+  margin:0 10px; 
+  font-weight: lighter; 
+  color:#8987A1;
 }
